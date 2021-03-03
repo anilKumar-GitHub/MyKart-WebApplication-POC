@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#FEFEFE;
+}
+
+
+.divisionPage
+{
+	font-weight:bolder;
+	font-size:20px;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin-top:50px;
+	margin-left:28%;
+	padding:30px 0px 0px 0px;
+	border-radius:5px;
+	box-shadow:0px 0px 40px 1px #CCC, inset 0px 0px 20px 2px #EEE;
+	-webkit-box-shadow:0px 0px 40px 1px #CCC, inset 0px 0px 20px 2px #EEE;
+	-ms-box-shadow:0px 0px 40px 1px #CCC, inset 0px 0px 20px 2px #EEE;
+	-moz-box-shadow:0px 0px 40px 1px #CCC, inset 0px 0px 20px 2px #EEE;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=date], textarea, select 
+{
+	width:300px;
+	height:30px;
+	padding:0px 10px 0px 10px;
+	font-size:18px;
+	margin:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:4px;
+}
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=date]:hover, textarea:hover
+{
+	box-shadow:0px 0px 10px 1px black;
+	cursor:pointer;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, textarea:focus
+{
+	box-shadow:inset 0px 0px 20px 2px #ccc;
+	cursor:text;
+}
+
+
+
+input[type=checkbox]
+{
+	width:20px;
+	height:15px;
+	padding:0px 10px 0px 10px;
+	margin:10px;
+}
+
+input[type=radio]
+{
+	width:30px;
+	height:20px;
+	padding:0px 10px 0px 10px;
+	margin:10px;
+}
+
+input[type=submit], input[type=reset]
+{
+	height:40px;
+	font-size:20px;
+	color:#FFFFFF;
+	letter-spacing:5px;
+	border-radius:10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+
+	background:linear-gradient(skyblue,blue);
+	-ms-background:linear-gradient(skyblue,blue);
+	-moz-background:linear-gradient(skyblue,blue);
+	-webkit-background:linear-gradient(skyblue,blue);
+
+	transition:background 10s;	
+	-ms-transition:background 10s;	
+	-moz-transition:background 10s;	
+	-webkit-transition:background 10s;
+}
+input[type=submit]:hover, input[type=reset]:hover
+{
+	cursor:pointer;
+	
+	background:linear-gradient(white,blue,skyblue);
+	-ms-background:linear-gradient(white,blue,skyblue);
+	-moz-background:linear-gradient(white,blue,skyblue);
+	-webkit-background:linear-gradient(white,blue,skyblue);
+
+	box-shadow:0px 0px 5px 0px #ccc;
+	-ms-box-shadow:0px 0px 5px 0px #ccc;
+	-moz-box-shadow:0px 0px 5px 0px #ccc;
+	-webkit-box-shadow:0px 0px 5px 0px #ccc;
+}
+
+
+.hypLink	{
+	text-decoration:none;
+	color:#6F6565;
+	letter-spacing:2px;
+	padding:8px 30px 8px 30px;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+.hypLink:hover	{
+	color:blue;
+	padding:8px 30px 8px 30px;
+	border-radius:10px;
+	box-shadow:inset 0px 0px 10px 2px black;
+	-ms-box-shadow:inset 0px 0px 10px 2px black;
+	-moz-box-shadow:inset 0px 0px 10px 2px black;
+	-webkit-box-shadow:inset 0px 0px 10px 2px black;
+	
+/*	background-image:url(../images/icons/Devil%20offline.ico);
+	position:relative;
+	right:5px;
+	bottom:150px;*/
+
+}
